@@ -1,4 +1,4 @@
-package com.arc.latihan.ui
+package com.arc.latihan
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -38,11 +38,11 @@ fun Dadu(){
 
         val image = when (diceValue){
             1 -> R.drawable.ic_launcher_background
-            2 -> R.drawable.ic_launcher_background
+            2 -> R.drawable.ic_launcher_foreground
             3 -> R.drawable.ic_launcher_background
-            4 -> R.drawable.ic_launcher_background
+            4 -> R.drawable.ic_launcher_foreground
             5 -> R.drawable.ic_launcher_background
-            6 -> R.drawable.ic_launcher_background
+            6 -> R.drawable.ic_launcher_foreground
             else -> {
                 R.drawable.ic_launcher_foreground
             }
