@@ -14,13 +14,12 @@
         android:theme="@style/Theme.Latihan"
         tools:targetApi="31">
         <activity
-            android:name=".DemoActivity"
+            android:name=".StatefulActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Latihan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
