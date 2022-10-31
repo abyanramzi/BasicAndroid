@@ -12,12 +12,3 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-task helloKamu(){
-    description "Custom Task Demo"
-    doLast {
-        println "Hello Kamu"
-        //Custom Task, Bisa digunakan untuk perintah seperti upload, convert apk, dll
-        var test = "Convert Apk"
-        println test
-    }
-}

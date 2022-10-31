@@ -14,4 +14,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Latihan"
 include ':app'
-include ':myapplication'
