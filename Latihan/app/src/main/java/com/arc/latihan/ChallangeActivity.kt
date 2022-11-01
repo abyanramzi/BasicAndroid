@@ -31,6 +31,14 @@ class ChallangeActivity : ComponentActivity() {
     }
 }
 
+fun getScreenWidth(): Int {
+    return Resources.getSystem().displayMetrics.widthPixels
+}
+
+fun getScreenHeight(): Int {
+    return Resources.getSystem().displayMetrics.heightPixels
+}
+
 @Preview(showSystemUi = true, showBackground = true)
 @Composable
 fun Challange() {
@@ -38,10 +46,10 @@ fun Challange() {
     val screenWidth = Resources.getSystem().displayMetrics.widthPixels
     val screenHeight = Resources.getSystem().displayMetrics.heightPixels
     // Mencari Ratio (dp:pixel)
-    val ratioScreen = Resources.getSystem().displayMetrics.xdpi/Resources.getSystem().displayMetrics.widthPixels
+    val ratioScreen = Resources.getSystem().displayMetrics.xdpi/ getScreenWidth()
     // Mencari Ukuran Konten
-    val maxContentWidth = ((screenWidth/3)*ratioScreen)
-    val maxContentHeight = ((screenHeight/2)*ratioScreen)
+    val maxContentWidth = ((getScreenWidth()/3)*ratioScreen)
+    val maxContentHeight = ((getScreenHeight()/2)*ratioScreen)
     // Tes Print
     println("Ini Lebar Layar: " + screenWidth)
     println("Ini Tinggi Layar: " + screenHeight)
