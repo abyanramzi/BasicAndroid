@@ -18,6 +18,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
@@ -93,7 +94,7 @@ fun Challange() {
                             .border(3.dp, Color.White, CircleShape)
                     )
                     Text(
-                        text = "Naruto 1",
+                        text = stringResource(R.string.Char1),
                         color = Color.White,
                         fontSize = 24.sp
                     )

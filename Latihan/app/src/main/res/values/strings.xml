@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Latihan</string>
+    <string name="Char1">Naruto</string>
+    <string name="Char2">Naruto2</string>
+    <string name="Char3">Naruto3</string>
+    <string name="Char4">Sasuke</string>
+    <string name="Char5">Sasuke2</string>
+    <string name="Char6">Sasuke3</string>
+
 </resources>

@@ -12,3 +12,11 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+task hello{
+    description "Print Hello"
+    doLast {
+        var text = "Hello Abyan"
+        println text
+    }
+}

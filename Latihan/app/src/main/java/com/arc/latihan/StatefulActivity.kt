@@ -35,7 +35,7 @@ fun EchoText(){
     ) {
         if (displayText.isNotEmpty()){
             Text(
-                text = "Hallodoc" + displayText
+                text = "Hallo Mr " + displayText
             )
         }
         Spacer(
