@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Latihan"
         tools:targetApi="31">
         <activity
-            android:name=".ChallangeActivity"
+            android:name=".nav.NavigationActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Latihan">
@@ -25,5 +25,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
